@@ -103,7 +103,7 @@ fieldset legend{
     color: #c1bccc;
 }
 
-.container input {
+.container input, .container textarea {
     background: #FAFAFC;
 
     border: 1px solid #E6E6F0;
@@ -117,4 +117,9 @@ fieldset legend{
     line-height: 26px;
 
     color: #c1bccc;
+}
+
+.container textarea{
+    padding: 0;
+    height: 168px;
 }
