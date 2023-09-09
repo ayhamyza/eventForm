@@ -116,7 +116,8 @@ fieldset legend{
     font-size: 16px;
     line-height: 26px;
 
-    color: #c1bccc;
+    /*color: #c1bccc;*/
+    color:#c1bccd ;
 }
 
 .container textarea{
