@@ -1,5 +1,14 @@
-body{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, input, button, select, textarea{
     font-family: 'Poppins', sans-serif;
+}
+
+body{
     background: rgba(229, 229, 229, 1);
 }
 
@@ -32,6 +41,8 @@ header h1{
     font-size: 36px;
     line-height: 42px; /*altura da linha*/
     color: white;
+
+    margin-bottom: 24px;
 }
 
 header p {
@@ -67,4 +78,37 @@ fieldset legend{
 .container{
    display: flex;
    flex-direction: column; 
+}
+
+.container label{
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #4E4958;
+    margin-bottom:8px ;
+}
+
+.container label span{
+    margin-left: 12px;  
+
+    font-size: 12px;
+    line-height: 20px;
+    
+    color: #c1bccc;
+}
+
+.container input {
+    background: #FAFAFC;
+
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    height: 56px;
+    
+    padding: 0 24px;
+
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #c1bccc;
 }
